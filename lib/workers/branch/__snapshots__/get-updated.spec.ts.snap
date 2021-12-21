@@ -178,6 +178,20 @@ Object {
 }
 `;
 
+exports[`workers/branch/get-updated getUpdatedPackageFiles() handles replacement 1`] = `
+Object {
+  "artifactErrors": Array [],
+  "reuseExistingBranch": undefined,
+  "updatedArtifacts": Array [],
+  "updatedPackageFiles": Array [
+    Object {
+      "contents": "my-new-dep:1.0.0",
+      "name": "index.html",
+    },
+  ],
+}
+`;
+
 exports[`workers/branch/get-updated getUpdatedPackageFiles() update artifacts on update-lockfile strategy 1`] = `
 Object {
   "artifactErrors": Array [],
